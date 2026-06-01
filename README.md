@@ -2,6 +2,35 @@
 
 Application web multijoueur pour jouer au Rami voleur avec Socket.IO, React/Vite et un moteur de règles TypeScript partagé entre client, serveur et tests.
 
+<p align="center">
+  <img src="./assets/rami_voleur_readme.gif" alt="Rami voleur en ligne" width="760">
+</p>
+
+## Site en ligne
+
+Le jeu est disponible ici :
+
+https://rami-voleur.onrender.com
+
+### Tester le site
+
+1. Ouvrir le site.
+2. Choisir un pseudo.
+3. Créer une partie.
+4. Partager le code du salon avec les autres joueurs.
+5. Les autres joueurs rejoignent avec le code.
+6. Lancer la partie quand le salon est complet.
+
+### Version déployée
+
+Cette version en ligne correspond au Rami voleur sans jokers et sans défausse :
+
+- 2 jeux de 52 cartes, soit 104 cartes.
+- Première pose à 40 points par défaut.
+- Pioche pour passer son tour.
+- Vol et réorganisation après première pose.
+- Toutes les actions sont validées côté serveur.
+
 ## Règles implémentées
 
 - Version sans jokers uniquement.
